@@ -18,6 +18,17 @@ My work combines accounting and audit expertise with Python programming, AI-assi
 
 ## Main projects
 
+### NETACONSULT_MICRO_GFO_GENERATOR
+
+Public browser-side web application for technical preparation and formatting of annual financial reports for Bulgarian micro-enterprises.
+
+The application supports local PDF processing of NSI/GOD Balance and Profit & Loss reports through PDF.js, balance validation, browser-based report generation and Print / Save as PDF output.
+
+The backend is used only for access and abuse protection: magic link, session handling, rate limits and Turnstile. It does not receive or store PDF files, company identifiers, personal identifiers or accounting report data.
+
+Live app: https://gfo.netaconsult.bg  
+Showcase repo: https://github.com/GaliaGrozdeva/netaconsult-micro-gfo-generator-showcase
+
 ### ACCOUNTING_DESKTOP_ASSISTANT
 
 Internal operations platform for an accounting office.
